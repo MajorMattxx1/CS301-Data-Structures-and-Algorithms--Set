@@ -1,0 +1,19 @@
+1.What is the advantages/disadvantages of a tree approach rather than a hash based approach?
+
+The advantages of a tree approach is organization, quick runtime with low number of nodes, and perhaps relative ease of use.
+
+Disadvantages for trees is low access time, increasing inefficiency with increasing number of nodes, and relatively large data use per element. 
+
+Hash based can instantly access any desired element, and handles large amount of data in a simpler manner with less overhead.
+
+2. Average big O of following methods based on my (not entirely functional) methods:
+add - constant, after an if/else, it slaps the elem into the bucket
+remove - n, it looks for the elem, and deletes if found
+contains - n, somewhat like remove, minus the deleting part
+for the next three, to quote cplusplus.com:
+"Up to linear in 2*(count1+count2)-1
+(where countX is the distance between firstX and lastX):
+Compares and assigns elements."
+intersection - n^2, there's a loop inside a loop
+difference - n^2, same reasoning as above
+union - n^2, same reasoning as above

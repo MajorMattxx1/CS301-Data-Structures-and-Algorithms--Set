@@ -1,0 +1,24 @@
+Add A 3
+Add A 4
+Add A 5
+Add A 9
+Size A
+Remove A 9
+Size A
+Print A
+Add B 42
+Add B 3
+Add B 4
+Add B 5
+Add B 9
+Size B
+Remove B 5
+Size B
+Print B
+Union
+Size A
+Difference
+Size A
+Intersection
+Size A
+Quit
